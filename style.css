@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(204, 43%, 93%);
+    font-family: Karla, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+@media only screen and (min-width: 829px) {
+    .main{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px 0;
+        height: 80vh;
+        width: 85vw;
+        margin: 60px 20px 20px 20px;
+    }
+    .component-1{
+        background-color: white;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding: 20px 25px;
+        width: 100%;
+    }
+    .comp{
+        color: hsl(179, 62%, 43%);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 27px;
+    }
+    .advert{
+        color: hsl(71, 73%, 54%);
+        padding-top: 0;
+        padding-bottom: 20px;
+        line-height: 1.6;
+        letter-spacing: 0.5px;
+    }
+    .access{
+        color:hsl(218, 22%, 67%);
+        padding-bottom: 20px;
+        letter-spacing: 0.5px;
+        line-height: 1.6;
+    }
+    .component-2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 80vh;
+    }
+    .component-3{
+        background-color:hsl(179, 62%, 43%);
+        height: 100%;
+        padding: 10px;
+        align-self: flex-start;
+        color:white;
+        border-bottom-left-radius: 5px;
+     }
+    .btn{
+        margin-top: 1em;
+        border: none;
+        padding: 1.1em 3em;
+        border-radius: 5px;
+        width: 100%;
+        max-width: 260px;
+        color: #fff;
+        cursor: pointer;
+        background-color: hsl(71, 73%, 54%);
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+    .component-3, .component-4 {
+        display: flex;
+        flex-direction:column;
+         width: 50%;
+    }
+    .component-4{
+        background-color: rgba(42, 178, 175, 0.5);
+        align-self: flex-start;
+        height: 100%;
+        padding: 10px;
+        border-bottom-right-radius: 5px;
+    }
+    .number{
+        font-weight: 50;
+        font-size: 20px;
+        padding-right: 10px;
+    }
+    .time{
+        color: lightgray;
+    }
+    .head{
+        letter-spacing: 1px;
+        font-size: 17px;
+        line-height: 1.6;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .info{
+        letter-spacing: 0.5px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .why{
+        color:white;
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    .reason{
+        color: white;
+        padding-top:9px;
+        opacity: 0.7;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .main{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px 0;
+        height: 100%;
+        width: 85vw;
+        margin: 60px 20px 100px 20px;
+    }
+    .component-1{
+        background-color: white;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding: 20px 25px;
+        width: 100%;
+    }
+    .comp{
+        color: hsl(179, 62%, 43%);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 27px;
+    }
+    .advert{
+        color: hsl(71, 73%, 54%);
+        padding-top: 0;
+        padding-bottom: 20px;
+        line-height: 1.6;
+        letter-spacing: 0.5px;
+    }
+    .access{
+        color:hsl(218, 22%, 67%);
+        padding-bottom: 20px;
+        letter-spacing: 0.5px;
+        line-height: 1.6;
+    }
+    .component-2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 80vh;
+    }
+    .component-3{
+        background-color:hsl(179, 62%, 43%);
+        height: 100%;
+        padding: 25px;
+        align-self: flex-start;
+        color:white;
+        width: 100%;
+     }
+    .btn{
+        margin-top: 1em;
+        border: none;
+        padding: 1.1em 3em;
+        border-radius: 5px;
+        width: 100%;
+        max-width: 260px;
+        color: #fff;
+        cursor: pointer;
+        background-color: hsl(71, 73%, 54%);
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+    .component-3, .component-4 {
+        display: flex;
+        flex-direction:column;
+         width: 100%;
+    }
+    .component-4{
+        background-color: rgba(42, 178, 175, 0.5);
+        align-self: flex-start;
+        height: 100%;
+        padding: 25px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    .number{
+        font-weight: 50;
+        font-size: 20px;
+        padding-right: 10px;
+    }
+    .time{
+        color: lightgray;
+    }
+    .head{
+        letter-spacing: 1px;
+        font-size: 17px;
+        line-height: 1.6;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .info{
+        letter-spacing: 0.5px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .why{
+        color:white;
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    .reason{
+        color: white;
+        padding-top:9px;
+        opacity: 0.7;
+    }
+}
